@@ -1,3 +1,35 @@
 body {
     background-color: lightblue;
 }
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgray;
+    font-size: larger;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding-left: 275px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: black;
+    text-align: center;
+}
