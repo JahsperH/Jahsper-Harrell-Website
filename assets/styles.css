@@ -23,13 +23,14 @@ nav li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding-left: 275px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 188.75px;
+    padding-right: 188.75px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: black;
+    background-color: dimgray;
     text-align: center;
 }
