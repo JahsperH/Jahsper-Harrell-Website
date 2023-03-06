@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: #ffefcb;
 }
 
 header {
@@ -11,26 +11,21 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: darkgray;
-    font-size: larger;
+    background-color: tan;
 }
 
 nav li {
     float: left;
 }
 
-nav li a {
-    display: inline-block;
-    color: white;
+nav li a{
+    display: block;
+    color: black;
     text-align: center;
-    padding-left: 188.75px;
-    padding-right: 188.75px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: dimgray;
-    text-align: center;
+    background-color: #9a7b4f;
 }
