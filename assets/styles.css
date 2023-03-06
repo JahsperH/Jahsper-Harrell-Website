@@ -1,9 +1,24 @@
+/* .vert {
+    border-left: 4px solid #65350f;
+    height: 1000px;
+    position: absolute;
+    left: 24%;
+} */
+
+.abt {
+    border-left: 4px solid #65350f;
+    height: fit-content;
+    position: relative;
+    left: 20%;
+    text-align: left;
+}
+
 body {
     background-color: #ffefcb;
 }
 
 header {
-    text-align: center;
+    float: top;
 }
 
 nav ul {
@@ -12,10 +27,14 @@ nav ul {
     padding: 0;
     overflow: hidden;
     background-color: tan;
+    position: sticky;
+    top: 0;
 }
 
 nav li {
     float: left;
+    border-right: 1px solid black;
+    font-size: larger;
 }
 
 nav li a{
@@ -28,4 +47,12 @@ nav li a{
 
 nav li a:hover {
     background-color: #9a7b4f;
+}
+
+section {
+    text-align: center;
+}
+
+section li {
+    list-style-type: none;
 }
