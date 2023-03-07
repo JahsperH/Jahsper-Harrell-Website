@@ -4,6 +4,8 @@
 
 Website for Jahsper Harrell to display his works and contact information, as well as a small about me.
 
+![Page Picture](./assets/images/Challenge%202%20pic.png)
+
 ## Installation
 
 N/A
