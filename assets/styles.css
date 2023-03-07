@@ -30,16 +30,22 @@ body {
 }
 
 .firstPic{
-    width: 600px;
-    height: 200px;
-    background-image: url(./images/longCoffee.jpg);
+    width: 100%;
+    height: 300px;
+    background-image: url(./images/highResCoffee.jpeg);
     background-position: center;
     object-fit: cover;
     background-size: cover;
     overflow: hidden;
     text-align: center;
     border: solid 2px #65350f;
-    padding-top: 20px;
+    margin: 8px;
+    background-blend-mode: unset;
+    background-color: #9a7b4f;
+}
+
+.firstPic:hover{
+    background-blend-mode:soft-light;
 }
 
 .firstPic h3{
@@ -49,22 +55,71 @@ body {
 }
 
 .secondPic {
-    width: 600px;
+    width: 200px;
     height: 200px;
     background-image: url(./images/longCoffee.jpg);
     background-position: center;
     object-fit: cover;
-    background-size: cover;
     overflow: hidden;
     text-align: center;
     border: solid 2px #65350f;
-    padding-top: 20px;
+    background-blend-mode: unset;
+    background-color: #9a7b4f;
+}
+.secondPic:hover{
+    background-blend-mode:soft-light;
 }
 
 .secondPic h3{
     background-color: #9a7b4f;
     border-bottom: solid #65350f;
     border-top: solid #65350f; 
+}
+
+.thirdPic{
+    width: 200px;
+    height: 200px;
+    background-image: url(./images/longCoffee.jpg);
+    background-position: center;
+    object-fit: cover;
+    overflow: hidden;
+    text-align: center;
+    border: solid 2px #65350f;
+    background-blend-mode: unset;
+    background-color: #9a7b4f;
+}
+
+.thirdPic:hover{
+    background-blend-mode:soft-light;
+}
+
+.thirdPic h3{
+    background-color: #9a7b4f;
+    border-bottom: solid #65350f;
+    border-top: solid #65350f;
+}
+
+.fourthPic{
+    width: 200px;
+    height: 200px;
+    background-image: url(./images/longCoffee.jpg);
+    background-position: center;
+    object-fit: cover;
+    overflow: hidden;
+    text-align: center;
+    border: solid 2px #65350f;
+    background-blend-mode: unset;
+    background-color: #9a7b4f;
+}
+
+.fourthPic:hover{
+    background-blend-mode:soft-light;
+}
+
+.fourthPic h3{
+    background-color: #9a7b4f;
+    border-bottom: solid #65350f;
+    border-top: solid #65350f;
 }
 
 header {
