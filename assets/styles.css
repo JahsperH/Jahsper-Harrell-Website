@@ -1,21 +1,35 @@
-/* .vert {
-    border-left: 4px solid #65350f;
-    height: 1000px;
-    position: absolute;
-    left: 24%;
-} */
-
-.abt {
-    border-left: 4px solid #65350f;
-    height: fit-content;
-    position: relative;
-    left: 20%;
-    text-align: left;
-}
-
 body {
     background-color: #ffefcb;
+    margin: 0;
+    padding: 0;
+    display: block;
 }
+
+
+.abtcnt {
+    display: flex;
+    padding: 5px 0 0 0;
+}
+
+.abt {
+    border-left: 3px solid #65350f;
+    padding: 0 0 0 5px;
+
+    /* border-left: 4px solid #65350f;
+    height: fit-content;
+    position: relative;
+    left: 220px;
+    text-align: left;
+    font-size: large;
+    margin: 5px;
+    padding: 0 200px 0 5px; */
+}
+
+.abth{
+    margin: 5px;
+    padding: 0 125px 0 120px;
+}
+
 
 header {
     float: top;
@@ -27,13 +41,11 @@ nav ul {
     padding: 0;
     overflow: hidden;
     background-color: tan;
-    position: sticky;
-    top: 0;
 }
 
 nav li {
     float: left;
-    border-right: 1px solid black;
+    border-left: 1px solid black;
     font-size: larger;
 }
 
@@ -51,6 +63,7 @@ nav li a:hover {
 
 section {
     text-align: center;
+    overflow-wrap: break-word;
 }
 
 section li {
