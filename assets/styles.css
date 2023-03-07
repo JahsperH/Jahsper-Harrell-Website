@@ -8,7 +8,13 @@ body {
 
 .sideSectionCnt {
     display: flex;
+    /* flex-wrap: wrap; */
     padding: 5px 0 30px 0;
+}
+
+.sideSectionCnt img{
+    height: 200px;
+    border-radius: 10px;
 }
 
 .sideSection {
@@ -120,6 +126,15 @@ body {
     background-color: #9a7b4f;
     border-bottom: solid #65350f;
     border-top: solid #65350f;
+}
+
+#myPic {
+    width: 200px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
 
 header {
