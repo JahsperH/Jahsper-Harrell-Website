@@ -2,7 +2,7 @@
 
 ## Description
 
-Website for Jahsper Harrell to display his works and contact information, as well as an small about me.
+Website for Jahsper Harrell to display his works and contact information, as well as a small about me.
 
 ## Installation
 
